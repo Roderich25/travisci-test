@@ -1,0 +1,17 @@
+{% extends "flights/base.html" %}
+
+{% block title %}
+    Error
+{% endblock %}
+{% block h1c %}
+    Error
+{% endblock %}
+{% block body %}
+
+    {{ message }}
+
+    <hr>
+
+    <a href="{% url 'index' %}">Return to flights.</a>
+
+{% endblock %}
